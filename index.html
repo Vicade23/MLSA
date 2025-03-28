@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Style/index.css">
+    <title>Document</title>
+</head>
+<body>
+
+        <header>
+            <div class="cookie-container container-fluid" id="cookie-container">
+
+                <div class="container-xl py-3 py-md-2">
+                    <div class="row align-items-center">
+
+                        <div class="cookie-text-container col-md-9 text-center text-md-start">
+                            This site uses cookies to deliver its services and analyze traffic. You can learn more about how Google uses cookies
+                        </div>
+
+                        <div class="cookie-btn-container col-md-3 d-flex justify-content-center justify-content-md-end mt-4 mt-md-0">
+                            <button class="btn" onclick='okBTNFunction()'>OK</button>
+                        </div>
+
+                    </div>
+                </div>
+                    
+            </div>
+
+            <div class="navbar-container border-bottom py-2 py-lg-0">
+                <div class="container-xl py-lg-3">
+                    <div class="row">
+                            
+                        <div class="left-nav col-8 col-md-5">
+
+                            <div class="d-flex align-items-center">
+                                <div class="logo-header-container ms-4 ms-lg-0">
+                                    <img class="logo" src="Assets/Images/students-ambassador-microsoft-logo-removebg-preview.png" alt="Logo">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="right-nav col-4 col-md-7">
+                            <div class="d-flex align-items-center justify-content-end h-100">
+                                <div class="nav-cont d-flex">
+
+                                    <div class="dropdown d-none d-lg-block">
+                                        <a class="dropdown-toggle" href="#" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                        About MLSA
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="nav-links d-none d-lg-inline-block ms-4">
+                                        <a href="#">Chapters</a>
+                                    </div>
+
+                                    <div class="nav-links d-none d-lg-inline-block ms-4">
+                                        <a href="#">Upcoming Events</a>
+                                    </div>
+
+                                    <div class="burger-toggle-btn-container d-lg-none">
+                                        <button class="btn px-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample1" aria-controls="offcanvasExample1">
+                                            <i class="bi bi-list"></i>
+                                        </button>
+                                        
+                                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample1" aria-labelledby="offcanvasExample1Label">
+                                            <div class="offcanvas-header">
+                                            <h5 class="offcanvas-title" id="offcanvasExample1Label"></h5>
+                                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                            </div>
+                                            <div class="offcanvas-body">
+                                                <div></div>
+                                                <div class="dropdown mt-3">
+                                                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                                    About GDG
+                                                    </button>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero">
+                <div class="img-container"></div>
+                <div class="hero-text-container text-center container-xl ">
+                    <div class="logo-container mb-4 mt-3">
+                        <img src="Assets/Images/students-ambassador-microsoft-logo-removebg-preview.png" alt="logo">
+                    </div>
+                    <div class="text-heading px-lg-5 py-1">
+                        Where Passion Meets Innovation
+                    </div>
+                    <div class="texts px-lg-5 py-1">
+                        MLSA on Campus University of Ilorin - Ilorin, Nigeria
+                    </div>
+
+                    <div class="hero-btn-links">
+                        <a href="#" class="me-sm-3">
+                            <button class="btn btn btn-fill " type="submit">Create Account</button>
+                        </a>
+                        <a href="#">
+                            <button class="btn btn-outline" type="submit">Learn more</button>
+                        </a>
+                    </div>
+                    <div class="hero-btn-social-links d-none">
+                        <a href="#" class="me-sm-3">
+                            <button class="btn btn-outline" type="submit">
+                                <span class="bi bi-twitter"></span>
+                            </button>
+                        </a>
+                        <a href="#" class="me-sm-3">
+                            <button class="btn btn-outline" type="submit">
+                                <span class="bi bi-linkedin"></span>
+                            </button>
+                        </a>
+                        <a href="#" class="me-sm-3">
+                            <button class="btn btn-outline" type="submit">
+                                <span class="bi bi-facebook"></span>
+                            </button>
+                        </a>
+                        <a href="#" class="me-sm-3">
+                            <button class="btn btn-outline" type="submit">
+                                <span class="bi bi-instagram"></span>
+                            </button>
+                        </a>
+                        <a href="#" class="">
+                            <button class="btn btn-outline" type="submit">
+                                <span class="bi bi-envelope"></span>
+                            </button>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+        </header>
+        
+        <main class="container-xl ">
+
+            <div class="about">
+                <h2 class="h2">About</h2>
+                <div class="texts pb-3">
+                    Welcome to the biggest Google Developer Students community in Africa, <b>GDGoC, Unilorin</b>!
+                </div>
+                <div class="texts pb-3">
+                    We are a community that brings together tech enthusiasts, including developers, designers, data analysts, cybersecurity experts, machine learning enthusiasts, cloud engineers, community managers, and more. Whether you're here to learn, share, or network, GDG on Campus Unilorin is the perfect place to grow and thrive in tech.
+                </div>
+                <div class="texts pb-3">
+                    <i>WhatsApp Community:</i>
+                </div>
+                <div class="texts pb-3">
+                    Once you've registered to join the community, <a href="#">kindly fill out this form</a> to join our communication channels on WhatsApp. Please only fill the form if you have clicked the "Join Us" button above.
+                </div>
+                <div class="texts">
+                    We can't wait to have you on board!
+                </div>
+            </div>
+
+            <div class="upcoming-events">
+                <h2 class="h2">Upcoming events</h2>
+
+                <div class="events-row border row mx-auto justify-content-center align-items-center">No Record</div>
+            </div>
+            
+            <div class="past-events">
+                <h2 class="h2">Past events</h2>
+
+                <div class="events-row border row mx-auto justify-content-center align-items-center">No Record</div>
+            </div>
+
+            <div class="organizers">
+                <h2 class="h2">Organizers</h2>
+                <div class=" row mx-auto">
+
+                    <div class="cols col-12 col-md-3">
+                        <div class="img-container d-flex justify-content-center align-items-center">
+                            <img src="Assets/Images/avarter.png" alt="Avatar">
+                        </div>
+                        <div class="col-body-container">
+
+                            <div class="col-body mx-auto text-center">
+                                <div class="full-name text-center">Femi Osho</div>
+                                <div class="position text-center">Lead Organizer</div>
+                                <div class="role text-center">Software Engineer - Backend</div>
+                                <a href="#" class="view-profile text-center mt-3">View profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cols col-12 col-md-3">
+                        <div class="img-container d-flex justify-content-center align-items-center">
+                            <img src="Assets/Images/avarter.png" alt="Avatar">
+                        </div>
+                        <div class="col-body-container">
+
+                            <div class="col-body mx-auto text-center">
+                                <div class="full-name text-center">Femi Osho</div>
+                                <div class="position text-center">Lead Organizer</div>
+                                <div class="role text-center">Software Engineer - Backend</div>
+                                <a href="#" class="view-profile text-center mt-3">View profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cols col-12 col-md-3">
+                        <div class="img-container d-flex justify-content-center align-items-center">
+                            <img src="Assets/Images/avarter.png" alt="Avatar">
+                        </div>
+                        <div class="col-body-container">
+
+                            <div class="col-body mx-auto text-center">
+                                <div class="full-name text-center">Femi Osho</div>
+                                <div class="position text-center">Lead Organizer</div>
+                                <div class="role text-center">Software Engineer - Backend</div>
+                                <a href="#" class="view-profile text-center mt-3">View profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cols col-12 col-md-3">
+                        <div class="img-container d-flex justify-content-center align-items-center">
+                            <img src="Assets/Images/avarter.png" alt="Avatar">
+                        </div>
+                        <div class="col-body-container">
+
+                            <div class="col-body mx-auto text-center">
+                                <div class="full-name text-center">Femi Osho</div>
+                                <div class="position text-center">Lead Organizer</div>
+                                <div class="role text-center">Software Engineer - Backend</div>
+                                <a href="#" class="view-profile text-center mt-3">View profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cols col-12 col-md-3">
+                        <div class="img-container d-flex justify-content-center align-items-center">
+                            <img src="Assets/Images/avarter.png" alt="Avatar">
+                        </div>
+                        <div class="col-body-container">
+
+                            <div class="col-body mx-auto text-center">
+                                <div class="full-name text-center">Femi Osho</div>
+                                <div class="position text-center">Lead Organizer</div>
+                                <div class="role text-center">Software Engineer - Backend</div>
+                                <a href="#" class="view-profile text-center mt-3">View profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cols col-12 col-md-3">
+                        <div class="img-container d-flex justify-content-center align-items-center">
+                            <img src="Assets/Images/avarter.png" alt="Avatar">
+                        </div>
+                        <div class="col-body-container">
+
+                            <div class="col-body mx-auto text-center">
+                                <div class="full-name text-center">Femi Osho</div>
+                                <div class="position text-center">Lead Organizer</div>
+                                <div class="role text-center">Software Engineer - Backend</div>
+                                <a href="#" class="view-profile text-center mt-3">View profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cols col-12 col-md-3">
+                        <div class="img-container d-flex justify-content-center align-items-center">
+                            <img src="Assets/Images/avarter.png" alt="Avatar">
+                        </div>
+                        <div class="col-body-container">
+
+                            <div class="col-body mx-auto text-center">
+                                <div class="full-name text-center">Femi Osho</div>
+                                <div class="position text-center">Lead Organizer</div>
+                                <div class="role text-center">Software Engineer - Backend</div>
+                                <a href="#" class="view-profile text-center mt-3">View profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cols col-12 col-md-3">
+                        <div class="img-container d-flex justify-content-center align-items-center">
+                            <img src="Assets/Images/avarter.png" alt="Avatar">
+                        </div>
+                        <div class="col-body-container">
+
+                            <div class="col-body mx-auto text-center">
+                                <div class="full-name text-center">Femi Osho</div>
+                                <div class="position text-center">Lead Organizer</div>
+                                <div class="role text-center">Software Engineer - Backend</div>
+                                <a href="#" class="view-profile text-center mt-3">View profile</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            
+            <div class="partners">
+                <h2 class="h2">Partners</h2>
+
+                <div class="events-row row mx-auto mb-2">
+                    <div class="col-12 d-flex justify-content-center align-items-center">
+                        <div class="image-container border p-3 d-flex justify-content-center align-items-center">
+                            <img src="Assets/Images/google-dev-group-logo.svg" alt="google dev">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer container-fluid border-top">
+            <div class="container-xl">
+                <div class="row mx-auto">
+
+                    <div class="second-row row mx-auto col-12">
+
+                        <div class="col-12 col-md-4">
+                            <div class="image-container">
+                                <img src="Assets/Images/students-ambassador-microsoft-logo-removebg-preview.png" alt="MLSA logo">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <div class="quick-links-container">
+                                <h2 class="h2">Quick Links</h2>
+
+                                <div class="link-container">
+                                    <span class="bi bi-caret-right"></span>
+                                    <a href="#">About GDG</a>
+                                </div>
+                                
+                                <div class="link-container">
+                                    <span class="bi bi-caret-right"></span>
+                                    <a href="#">Chapters</a>
+                                </div>
+                                <div class="link-container">
+                                    <span class="bi bi-caret-right"></span>
+                                    <a href="#">Upcoming Events</a>
+                                </div>
+                                <div class="link-container">
+                                    <span class="bi bi-caret-right"></span>
+                                    <a href="#">Participation Terms</a>
+                                </div>
+                                <div class="link-container">
+                                    <span class="bi bi-caret-right"></span>
+                                    <a href="#">Privacy</a>
+                                </div>
+                                <div class="link-container">
+                                    <span class="bi bi-caret-right"></span>
+                                    <a href="#">Terms</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <div class="socials">
+                                <h2 class="h2">Socials</h2>
+                                
+                                <div class="footer-btn-social-links">
+                                    <a href="#" class="me-sm-3">
+                                        <button class="btn btn-outline" type="submit">
+                                            <span class="bi bi-twitter"></span>
+                                        </button>
+                                    </a>
+                                    <a href="#" class="me-sm-3">
+                                        <button class="btn btn-outline" type="submit">
+                                            <span class="bi bi-linkedin"></span>
+                                        </button>
+                                    </a>
+                                    <a href="#" class="me-sm-3">
+                                        <button class="btn btn-outline" type="submit">
+                                            <span class="bi bi-youtube"></span>
+                                        </button>
+                                    </a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="d-sm-flex justify-content-between align-items-center copyright-and-powered-container">
+                            <div class="copyright">© 2025 Google∙ Upcoming Events</div>
+                            <div class="powered-by">Powered by Revo System</div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-12"></div> -->
+                </div>
+            </div>
+        </footer>
+
+    <script>
+        const okBTNFunction = () => {
+            const cookie_container = document.getElementById('cookie-container'); 
+            cookie_container.classList.add('d-none')
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
